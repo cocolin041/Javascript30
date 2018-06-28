@@ -6,8 +6,8 @@ Create a drum and you can press keyboard to invoke some functions
 2. border animation
 
 ## HTML
-1. <kbd> tag
-2. <audio> tag
+1. ```<kbd>``` tag
+2. ```<audio>``` tag
 3. data-key attribute
 
 ## JS
