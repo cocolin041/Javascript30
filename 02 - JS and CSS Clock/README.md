@@ -20,4 +20,4 @@ could get the current date and time
 2. getSeconds(), getMinutes(), getHours(): <br>
 methods of Date(), could get seconds, minutes and hours of the time
 3. Template literals: <br>
-style.transform = `rotate${variable_deg}deg`
+``` style.transform = `rotate${variable_deg}deg` ```
