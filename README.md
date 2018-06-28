@@ -1,3 +1,3 @@
 # Javascript 30
 
-[a relative link](./01 - Javascript Drum Kit/index.html)
+[01 - JavaScript Drum Kit](https://github.com/cocolin041/Javascript30/01%20-%20JavaScript%20Drum%20Kit)
