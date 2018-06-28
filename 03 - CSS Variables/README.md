@@ -24,3 +24,5 @@ img{
 1. dataset method: <br>
 in HTML, we could give ```data-*``` in element attributes, and use ```element.dataset``` to get the value<br>
 For example, we have ```<input data-sizing="px">``` so we can use ```input.dataset.sizing``` to get the ```px``` value
+2. setProperty method:<br>
+use ```style.setProperty('property', value)``` to change css style in js
