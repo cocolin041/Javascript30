@@ -4,7 +4,7 @@
 Use scroll bar to change three variables and change the img style (padding, color, blur) at the same time
 
 ## Demo
-https://cocolin041.github.io/Javascript30/03%20-%20CSS%20Variables
+https://cocolin041.github.io/Javascript30/04%20-%20Array%20Cardio%20Day%201
 
 ## JS
 1. ```Array.prototype.filter()```
