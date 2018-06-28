@@ -18,10 +18,9 @@ img{
   padding: var(--spacing);
 }
 ```
-<br>
-reference: https://www.w3schools.com/css/css3_variables.asp
+<br>reference: https://www.w3schools.com/css/css3_variables.asp
 
 ## JS
 1. dataset method: <br>
-in HTML, we could give data-* in element attributes, and use ```element.dataset``` to get the value<br>
+in HTML, we could give ```data-*``` in element attributes, and use ```element.dataset``` to get the value<br>
 For example, we have ```<input data-sizing="px">``` so we can use ```input.dataset.sizing``` to get the ```px``` value
