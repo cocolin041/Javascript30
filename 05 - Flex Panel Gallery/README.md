@@ -4,7 +4,7 @@
 Show panel animation when click a panel, practice mainly on CSS tricks
 
 ## Demo
-https://cocolin041.github.io/Javascript30/05%20-%20Flex%20Panel%20Gallery
+https://cocolin041.github.io/Javascript30/05%20-%20Flex%20Panel%20Gallery/
 
 ## CSS
 1. flex: 1 & flex: 5<br>
