@@ -8,6 +8,11 @@ https://cocolin041.github.io/Javascript30/04%20-%20Array%20Cardio%20Day%201
 
 ## JS
 1. ```Array.prototype.filter()```
+array.filter(fun)<br>
+//this is a filter rule<br>
+function fun() {
+  return filtered_data
+}
 2. ```Array.prototype.map()```
 3. ```Array.prototype.sort(compareFunction)```:<br>
 if the return value of ```compareFunction(a, b)``` is smaller than 0, then ```a``` will be put before ```b```<br>
