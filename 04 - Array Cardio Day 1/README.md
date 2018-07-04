@@ -1,7 +1,7 @@
-# Array Cardio
+# Array Cardio 1
 
 ## Project introduction
-Use scroll bar to change three variables and change the img style (padding, color, blur) at the same time
+Practice some array methods
 
 ## Demo
 https://cocolin041.github.io/Javascript30/04%20-%20Array%20Cardio%20Day%201
