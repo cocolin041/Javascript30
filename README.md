@@ -6,3 +6,4 @@
 4. [Array Cardio](https://cocolin041.github.io/Javascript30/04%20-%20Array%20Cardio%20Day%201)
 5. [Flex Panels](https://cocolin041.github.io/Javascript30/05%20-%20Flex%20Panel%20Gallery)
 6. [Filter](https://cocolin041.github.io/Javascript30/06%20-%20Type%20Ahead)
+7. [Array Cardio 2](https://cocolin041.github.io/Javascript30/07%20-%20Array%20Cardio%20Day%202/)
