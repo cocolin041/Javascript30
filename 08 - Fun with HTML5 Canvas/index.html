@@ -1,12 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>HTML5 Canvas</title>
 </head>
+
 <body>
 <canvas id="draw" width="800" height="800"></canvas>
 <script>
+  var painting = document.getElementById('draw');
+  var canvas = painting.getContext('2d');
+  painting.width = window.innerWidth;
+  painting.height = window.innerHeight;
+  canvas.lineJoin = 'round';
+  canvas.lineCap = 'round';
+  canvas.lineWidth= 100;
+  
+  //set default variable to store the current drawing status
+  var isDrawing = false;
+  var lastX = 0;
+  var lastY = 0;
+  var hue = 0;
+  //set default variable to know the current direction of the pen, when it's over the maximun value of width, revert the direction to minus the width
+  var direction = true;
+
+  //do something to draw
+  function draw(e) {
+    //if it's not drawing
+    if (!isDrawing) return;
+
+    //set the stroke color
+    canvas.strokeStyle = `hsl(${hue}, 100%, 50%)`;
+
+    //drawing start
+    canvas.beginPath();
+    //start point
+    canvas.moveTo(lastX, lastY);
+    //end point
+    canvas.lineTo(e.offsetX, e.offsetY);
+    //start draw
+    canvas.stroke();
+
+    //let the start point be the end point of each movement
+    [lastX, lastY] = [e.offsetX, e.offsetY];
+
+    //change the color variable
+    hue++;
+    if (hue >= 360) {
+      hue = 0;
+    }
+
+    //when the width add to the max or deduct to the min, revert it
+    if (canvas.lineWidth >= 100 || canvas.lineWidth <= 1) {
+      direction = !direction;
+    }
+    if (direction) {
+      canvas.lineWidth++;
+    } else {
+      canvas.lineWidth--;
+    }
+
+  }
+  painting.addEventListener('mousemove', draw);
+
+  //set condition that should be considered drawing
+  painting.addEventListener('mousedown', (e) => {
+    isDrawing = true;
+    [lastX, lastY] = [e.offsetX, e.offsetY];
+  });
+
+  //set condition that should not be considered drawing
+  painting.addEventListener('mouseup', (e) => {
+    isDrawing = false;
+  });
+  painting.addEventListener('mouseout', () => isDrawing = false);
+  
+
 </script>
 
 <style>
