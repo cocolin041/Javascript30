@@ -19,41 +19,56 @@
     }
 
     // Regular
+    //this is for showing script on the console
+    console.info('%c %s console.log("Hello")', 'color: white; background-color: black;', '1.');
+    //actual script
     console.log('Hello');
 
     // Interpolated
+    console.info('%c %s console.log("Hello I am a %s string", "poo-poo")', 'color: white; background-color: black;', '2.');
     console.log('Hello I am a %s string', 'poo-poo');
 
     // Styled
-    console.log('%c I am some great text', 'color: red; background-color: yellow');
+    console.info('%c %s console.log("%c I am some great text", "color: blue;)', 'color: white; background-color: black;', '3.');
+    console.log('%c I am some great text', 'color: blue;');
 
     // warning!
+    console.info('%c %s console.warn("OH NOOO")', 'color: white; background-color: black;', '4.');
     console.warn('OH NOOO');
 
     // Error :|
+    console.info('%c %s console.error("Shit")', 'color: white; background-color: black;', '5.');
     console.error('Shit!');
 
     // Info
+    console.info('%c %s console.info("Some information")', 'color: white; background-color: black;', '6.');
     console.info('Some information');
 
     // Testing
+    console.info('%c %s console.assert(1 === 2, "That is wrong")', 'color: white; background-color: black;', '7.');
     console.assert(1 === 2, 'That is wrong')
 
     // clearing
-    console.clear();
+    console.info('%c %s //console.clear()', 'color: white; background-color: black;', '8.');
+    //console.clear();
 
     // Viewing DOM Elements
     const p = document.querySelector('p');
+    console.info('%c %s console.log(p)', 'color: white; background-color: black;', '9.');
     console.log(p);
+    console.info('%c %s console.dir(p)', 'color: white; background-color: black;', '10.');
     console.dir(p);
 
     // Grouping together
+    console.info('%c %s console.group("group-name")', 'color: white; background-color: black;', '11.');
     dogs.forEach(dog => {
       console.group(`${dog.name}`);
       console.log(`${dog.name} is ${dog.age} years old`);
       console.groupEnd(`${dog.name}`);
     })
+
     // counting
+    console.info('%c %s console.count("Wes")', 'color: white; background-color: black;', '12.');
     console.count('Wes');
     console.count('Wes');
     console.count('Steve');
@@ -71,6 +86,8 @@
         console.timeEnd('fetching data');
         console.log(data);
       }); */
+    console.info('%c %s console.time("counting-time")', 'color: white; background-color: black;', '13.');
+
     console.time('counting');
     function test() {
       for (i = 0; i < 10; i ++) {
