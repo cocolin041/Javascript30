@@ -13,3 +13,4 @@ https://javascript30.com/
 6. [Filter](https://cocolin041.github.io/Javascript30/06%20-%20Type%20Ahead)
 7. [Array Cardio 2](https://cocolin041.github.io/Javascript30/07%20-%20Array%20Cardio%20Day%202/)
 8. [HTML5 Canvas](https://cocolin041.github.io/Javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
+9. [Console Tricks!](https://cocolin041.github.io/Javascript30/09%20-%20Dev%20Tools%20Domination/)
