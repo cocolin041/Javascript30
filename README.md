@@ -14,3 +14,4 @@ https://javascript30.com/
 7. [Array Cardio 2](https://cocolin041.github.io/Javascript30/07%20-%20Array%20Cardio%20Day%202/)
 8. [HTML5 Canvas](https://cocolin041.github.io/Javascript30/08%20-%20Fun%20with%20HTML5%20Canvas/)
 9. [Console Tricks!](https://cocolin041.github.io/Javascript30/09%20-%20Dev%20Tools%20Domination/)
+10. [Hold Shift to Check Multiple Checkboxes](https://cocolin041.github.io/Javascript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/)
