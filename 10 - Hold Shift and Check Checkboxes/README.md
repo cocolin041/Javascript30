@@ -1,7 +1,7 @@
 # Hold Shift to Check Multiple Checkboxes
 
 ## Project introduction
-Introduction several console tricks, including test and error
+Hold Shift key to select multiple checkboxes, or un-select multiple checkboxes.
 
 ## Demo
 https://cocolin041.github.io/Javascript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/
